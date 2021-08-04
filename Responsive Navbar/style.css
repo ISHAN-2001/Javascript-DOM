@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background: #2385cc;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+nav .nav-toggle{
+    display: none;
+    background: transparent;
+    outline: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    /* background: red; */
+    width: 40%;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    border-color: #fff;
+    background: #f1f3f8;
+    color: #2385cc;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    nav ul{
+        width:50%;
+        
+    }
+    
+}
+@media screen and (max-width:1000px){
+    nav{
+        /* overflow: hidden; */
+        position: relative;
+        margin: 0px;
+    }
+    nav .links {
+        /* display: none; */
+        position: absolute;
+        top: 100px;
+        flex-direction: column;
+        /* background: red; */
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+        transition: 0.5s;
+    }
+    nav .links ul{
+        margin: 20px;
+    }
+    nav ul li a{
+        color: #000;
+
+    }
+
+    nav .nav-toggle{
+        display: block;
+    }
+}

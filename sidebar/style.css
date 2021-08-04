@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f5f8;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.fa-bars{
+    color: #2385cc;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.fa-times{
+    color: rgb(223, 41, 41);
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+section{
+    z-index: 100;
+    background-color: #fff;
+    width: 400px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+    transform: translate(-100%);
+}
+section *{
+    margin-bottom: 30px;
+}
+section .logo{
+    color: #2385cc;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+
+}
+section ul{
+    list-style: none;
+}
+
+
+section ul li a{
+    text-decoration: none;
+    color: #2385cc;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+section ul li a:hover{
+    border-color: #fff;
+    background: #2385cc;
+    color: #fff;
+}
+.show-section{
+    transform: translate(0);
+}
+@media screen and (max-width:500px) {
+    section{
+        width: 100%;
+    }
+    
+}

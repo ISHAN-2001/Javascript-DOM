@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+}
+ h4{
+    color: #2385cc;
+    font-size: 30px;
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 20px 300px;
+    font-size: 13px;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.main-menu{
+    display: flex;
+}
+.main-menu li{
+    margin-left: 20px;
+}
+.main-menu li a{
+    font-size: 20px;
+    color: #121212;
+
+}
+.main-menu li a:hover{
+    color: #2385cc;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.center{
+    background: #000;
+    color: #fff;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+.center h3, .btn{
+    margin: 10px;
+}
+.btn{
+    border: 2px solid White;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+.center span{
+    color: #2385cc;
+}

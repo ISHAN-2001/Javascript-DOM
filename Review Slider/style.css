@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f5f8;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+     width: 500px;
+     background: #fff;
+     padding: 30px;
+     text-align: center;
+}
+
+.container h3{
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+    font-size: 30px;
+    margin: 20px;
+}
+.container p{
+    font-size: 20px;
+}
+
+#job{
+    color: #73b9ef;
+    margin: 20px;
+}
+i{
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+    background: #2385cc;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+
+}
+i:hover{
+    border-color:#2385cc;
+    background: #fff;
+    color: #2385cc;
+}
+.arrow{
+    margin: 20px;
+}
+.btn{
+    margin: 0px;
+    background: transparent;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 5px;
+    border: 2px solid #2385cc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    color: #236666;
+}
+.btn:hover{
+    background: #2385cc;
+    color: #fff;
+}
