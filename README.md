@@ -1,5 +1,5 @@
 # Javascript-DOM Projects
 
-Inspired by https://www.freecodecamp.org/news/javascript-projects-for-beginners/ 
+Inspired by FreeCodeCamp-tutorial-on-Javascript(https://www.freecodecamp.org/news/javascript-projects-for-beginners/) 
 
-HTML CSS written on my own :-)
+Vanilla CSS and JS used
